@@ -3,10 +3,10 @@
 # Cenário:
 Uma empresa de eventos lançou um site para a venda de ingressos online. Sua tarefa é automatizar o processo de compra de ingressos usando Selenium e Python.
 
-#Objetivo:
+# Objetivo:
 Criar um script de automação que simule um usuário comprando um ingresso para um evento específico, validando os principais elementos e interações da página.
 
-#Requisitos do Teste
+# Requisitos do Teste
 O script deve:
 
 Abrir o site da plataforma de venda de ingressos.
