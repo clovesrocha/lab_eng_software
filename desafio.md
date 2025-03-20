@@ -17,16 +17,16 @@ Selecionar o método de pagamento (exemplo: cartão de crédito ou boleto).
 Confirmar a compra e verificar se a mensagem de sucesso aparece na tela.
 
 # Critérios de Sucesso
-✅ O script deve rodar sem erros e simular a compra com sucesso.
-✅ A automação deve verificar a existência dos elementos na página antes de interagir.
-✅ O código deve incluir asserts para validar que a compra foi realizada com sucesso.
-✅ O uso de esperas dinâmicas (WebDriverWait) é recomendado para evitar falhas por carregamento da página.
+- ✅ O script deve rodar sem erros e simular a compra com sucesso.
+- ✅ A automação deve verificar a existência dos elementos na página antes de interagir.
+- ✅ O código deve incluir asserts para validar que a compra foi realizada com sucesso.
+- ✅ O uso de esperas dinâmicas (WebDriverWait) é recomendado para evitar falhas por carregamento da página.
 
 # Dicas e Recursos
-🔹 Ferramentas: Selenium WebDriver, Python, ChromeDriver ou GeckoDriver.
-🔹 Comandos úteis: find_element(), send_keys(), click(), WebDriverWait(), assert.
-🔹 Bibliotecas recomendadas: selenium, pytest para automação de testes.
-🔹 Exemplo de validação: Verifique se um elemento com a mensagem "Compra realizada com sucesso!" está visível na página após a finalização.
+- 🔹 Ferramentas: Selenium WebDriver, Python, ChromeDriver ou GeckoDriver.
+- 🔹 Comandos úteis: find_element(), send_keys(), click(), WebDriverWait(), assert.
+- 🔹 Bibliotecas recomendadas: selenium, pytest para automação de testes.
+- 🔹 Exemplo de validação: Verifique se um elemento com a mensagem "Compra realizada com sucesso!" está visível na página após a finalização.
 
 💡 Desafio extra:
 📌 Implemente testes para verificar cenários de erro, como:
